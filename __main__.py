@@ -3,6 +3,9 @@ from population_simulation.simulation import simulation
 
 
 def main():
+    """
+    Main function of the application
+    """
     usage_text = "Usage: python -m pokemon_population_models [-n]"
 
     if len(sys.argv) < 1 or len(sys.argv) > 2:
