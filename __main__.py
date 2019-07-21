@@ -1,6 +1,5 @@
 import sys
-from population_simulation.BULBASAUR import bulbasaur
-from population_simulation.BULBASAUR_NO_HUMANS import bulbasaur_no_humans
+from population_simulation.simulation import simulation
 
 
 def main():
@@ -12,10 +11,10 @@ def main():
 
     if len(sys.argv) == 2 and sys.argv[1] == "-n":
         print("calling no humans")
-        bulbasaur_no_humans()
+        simulation(14, 2, False)
     elif len(sys.argv) == 1:
         print("calling regular")
-        bulbasaur()
+        simulation(14, 2, True)
     else:
         print(usage_text)
         return

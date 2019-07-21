@@ -4,6 +4,12 @@ This is a Python script originally written by YouTuber [Austin Hourigan](https:/
 ## Background
 The point of the script is to support a theory regarding the in-game rarity of so-called "starter" Pokémon, creatures which may only be obtained from a professor at the start of a main-series Pokémon game. Austin proposes that these creatures are being raised in captivity due to their incredibly lopsided male-to-female sex ratios. In the real world, animal populations with this kind of ratio are very susceptible to quick changes in the environment such as installation of outdoor lighting or human expansion into natural habitats. The script offers options for natural development and development with some random human intervention to demonstrate this instability. A full explanation of the script and its significance can be found in the video linked above.
 
+## Requirements
+Python 3
+
+## Setup
+pip install -r requirements.txt
+
 ## Usage
 python -m pokemon_population_models [args]
 
